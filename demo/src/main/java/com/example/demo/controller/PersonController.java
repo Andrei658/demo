@@ -25,6 +25,7 @@ public class PersonController {
     public String addPerson(@RequestBody Person person) {
         service.addPerson(person);
 
+        ;;;;;;
         return "Am adaugat user-ul cu succes!";
     }
 }
